@@ -1,0 +1,15 @@
+
+Name: Elijah D'souza
+UPI: edso681
+ID: 8188423
+
+Question 1: 
++-----------------------------------------------------------------------------------+
+¦ p1 ¦ p2 ¦ p3 ¦	 p4	    ¦		    p3		     ¦	   p2	  ¦		p1	        ¦
++-----------------------------------------------------------------------------------+
+0    1    2    3		    8				         16		      19			   26
+
+Average waiting time = ( (19-1) + (16-2) + (8-3) + (26-0)))/4 = 9.25 milliseconds 
+
+Question 2: 
+In my programme, I have manually implemented the process state ie (runnable, killed) within the process main body. Since we could not use processes in python, we had to use threads instead.  We had to save the states in order to be able to manipulate the treads. But a real world operating system or implementation it can pause, kill, and suspend threads etc. As the OS runs in kernal mode (ring 0 in x86/supervisor mode) by getting timer events from hardware. Therefore can communicate with the processer control, and get the required information.
